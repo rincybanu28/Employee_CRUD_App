@@ -6,7 +6,8 @@
 <meta charset="ISO-8859-1">
 <%@include file="./base.jsp" %>
 
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" 
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
@@ -35,8 +36,14 @@
 					
 					<div class="form-group">
 						<label for="dob">DOB</label>
-						<input type="date" onclick="ageCount()" class="form-control" id="dob" 
+						<input type="date"  class="form-control" id="dob" 
 						 name="dob" placeholder="Enter your dob">
+					</div>
+					
+					<div class="form-group">
+						<label for="age">Age</label>
+						<input type="number"  class="form-control" id="age" 
+						 name="age" placeholder="Enter your Age">
 					</div>
 					
 					
@@ -48,8 +55,8 @@
 					
 					<div class="form-group">
 						<label for="status">Status</label><br>
-						<input type="radio" name="status" value="yes"/>Yes<br>
-						<input type="radio" name="status" value="no"/>No<br>
+						<input type="radio" name="status" value="Yes"/>Yes<br>
+						<input type="radio" name="status" value="No"/>No<br>
 						
 					</div>
 					
